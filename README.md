@@ -160,27 +160,66 @@ This will point actions to the default device which we specified earlier as the 
 
 #### Jackd
 
-We will need *Jack 1 & 2* in order to route to alsa in our Python code. Install separately since *Jack 2* is built off *Jackd 1*.
+We will need *Jack 1 & 2* in order to route to alsa in our Python code. The repository containing the patched version of *Jackd* is needed to be grabbed from elsewhere.
 
-1. Jackd 1:
+1. Get repository
+```
+wget -O - http://rpi.autostatic.com/autostatic.gpg.key| sudo apt-key add -
+sudo wget -O /etc/apt/sources.list.d/autostatic-audio-raspbian.list http://rpi.autostatic.com/autostatic-audio-raspbian.list
+sudo apt-get update
+```
+
+2. Jackd 1:
 
 `sudo apt-get install Jackd1`
 
 Ensure to allow realtime access priority
 
-2. Jackd 2:
+3. Jackd 2:
 
 `sudo apt-get install Jackd2`
 
-3. Lastly we install a module to allow *Jackd* daemon to connect
+Lastly, to allow [alsa to work as Jackd is running](https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit#Playing_nice_with_ALSA), we need to do the follow
 
-`sudo apt-get install pulseaudio-module-jack`
+1. Create the file:
+
+`sudo nano /etc/asound.conf`
+
+2. Enter the following:
+
+```
+# convert alsa API over jack API
+# use it with
+# % aplay foo.wav
+
+# use this as default
+pcm.!default {
+    type plug
+    slave { pcm "jack" }
+}
+
+ctl.mixer0 {
+    type hw
+    card 1
+}
+
+# pcm type jack
+pcm.jack {
+    type jack
+    playback_ports {
+        0 system:playback_1
+        1 system:playback_2
+    }
+    capture_ports {
+        0 system:capture_1
+        1 system:capture_2
+    }
+}
+```
 
 #### Python
 
-Turns out Python is alreayd pre-installed for us. Note that this the preinstalled version is python2.7.
-
-But we will need certain libraries in order for the code to work.
+The version pre-installed is Python2.7. But we will still need certain libraries in order for the code to work.
 
 1. Get pip for easy module installation:
 
