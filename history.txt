@@ -1,0 +1,903 @@
+ 99  man jack
+  100  sudo apt-get --no-install-recommends install jackd2
+  101  man jackd
+  102  man jack2
+  103  man jackd
+  104  man cat
+  105  cat /proc/asound/cards
+  106  man alsamixer
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd ..
+  111  ls
+  112  cd bin
+  113  ls
+  114  cd ~
+  115  cd /share/man/man1/
+  116  cd /share/man/man1
+  117  cd ..
+  118  ls
+  119  cd ..
+  120  ls
+  121  sudo apt-get geany
+  122  sudo apt-get install geany
+  123  geany SoxInOut.C
+  124  ls
+  125  cd ~
+  126  geany SoxInOut.C
+  127  sudo apt-get install libsox-dev libeigen3-dev libfftw3-dev libasound2-dev libjack-jackd2-dev
+  128  sudo apt install libsox-dev libeigen3-dev libfftw3-dev libasound2-dev libjack-jackd2-dev sox libgtk2.0-dev
+  129  sudo apt-get install git g++ autoconf libtool
+  130  git clone https://github.com/flatmax/gtkiostream.git
+  131  cd gtkiostream
+  132  ./tools/autotools.sh
+  133  ./configure --disable-octave
+  134  make -j2
+  135  sudo apt-get --purge remove libsox-dev
+  136  sudo apt-get upgrade
+  137  sudo apt-get install libsox-dev
+  138  make -j2
+  139  cd gtkiostream
+  140  ./tools/autotools.sh
+  141  ./configure --disable-octave
+  142  make -j2
+  143  cd ..
+  144  make -j2
+  145  cd gtkiostream/
+  146  ls
+  147  make
+  148  sudo make install
+  149  cd
+  150  WSOLA -h
+  151  ./configure
+  152  cd gtkiostream/
+  153  ./configure
+  154  make
+  155  sudo apt-get --purge remove libsox-dev libeigen3-dev libfftw3-dev libasound2-dev libjack-jackd2-dev
+  156  sudo apt-get --purge remove libsox-dev libeigen3-dev libfftw3-dev libasound2-dev libjack-jackd2-dev sox libgtk2.0-dev
+  157  ls
+  158  cd ..
+  159  man git
+  160  clear
+  161  git clone https://github.com/scottlawsonbc/audio-reactive-led-strip.git
+  162  ls
+  163  mv audio-reactive-led-strip led_strip
+  164  ls
+  165  cd led_strip/
+  166  ls
+  167  nano README.md
+  168  ls
+  169  cd python
+  170  ls
+  171  nano dsp.py
+  172  nano microphone
+  173  nano microphone.py
+  174  man pip
+  175  pip install pyaudio
+  176  sudo apt-get install pyaudio
+  177  sudo apt-get install pip
+  178  sudo apt-get python
+  179  sudo apt-get install python
+  180  pip install -U pip
+  181  sudo apt-get install python-pip python-dev build-essential
+  182  sudo pip install --upgrade pip
+  183  pip install pyaudio
+  184  man pip
+  185  python -m pip install pyaudio
+  186  pip install -U pip
+  187  python -m pip install -U pip setuptools
+  188  sudo python -m pip install -U pip setuptools
+  189  sudo python -m pip install -U pip wheel
+  190  pip install pyaudio
+  191  sudo pip install pyaudio
+  192  sudo apt update
+  193  df
+  194  dh
+  195  man df
+  196  df -h
+  197  sudo apt upgrade
+  198  sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools
+  199  sudo apt-get install libportaudio2
+  200  sudo pip install pyaudio
+  201  sudo apt install portaudio19-dev
+  202  sudo pip install pyaudio
+  203  pip install scipy
+  204  sudo python -m pip install scipy
+  205  sudo python -m pip install numpy
+  206  sudo python -m pip install scipy
+  207  sudo apt-get install libatlas-base-dev gfortran
+  208  clear
+  209  pip install --upgrade pip
+  210  cd /usr/local/lib
+  211  ls
+  212  cd ~
+  213  easy_install scipy
+  214  sudo apt-get install libatlas-base-dev gfortran
+  215  df
+  216  df -h
+  217  ls
+  218  pip install scipy
+  219  shutdown -h now
+  220  sudo shutdown -h now
+  221  pip install scipy
+  222  pip install scipy
+  223  passwd
+  224  sudo pip install scipy
+  225  ls
+  226  cd led_strip/
+  227  ls
+  228  cd python
+  229  ls
+  230  cd ..
+  231  ls
+  232  clear
+  233  ls
+  234  cd python
+  235  ls
+  236  nano config.py
+  237  cd output
+  238  cd Output
+  239  ls
+  240  cd ~/led_strip/
+  241  ls
+  242  cd python
+  243  ls
+  244  nano visulaization
+  245  nano visulaization.py
+  246  nano visualization.py
+  247  nano config.py
+  248  sudo shutdown -h now
+  249  ls
+  250  mkdir pythonstuff
+  251  ls
+  252  cd pythonstuff/
+  253  nano hello.py
+  254  ls
+  255  ./hello.py
+  256  sudo -i
+  257  ls
+  258  cd ..
+  259  ls
+  260  cd home
+  261  ls
+  262  cd pi
+  263  ls
+  264  cd pythonstuff/
+  265  ls
+  266  chmod a+x hello.py
+  267  ./hello.py
+  268  ls
+  269  nano hello.py
+  270  vim hellolpy
+  271  vim hello.py
+  272  sudo apt-get install vim
+  273  ls
+  274  vim hello.py
+  275  nano hello.py
+  276  ./hello.py
+  277  nano hello.py
+  278  ./hello.py
+  279  ./hello.py -n tim
+  280  dffdfsa
+  281  sudo shutdown -h now
+  282  ls
+  283  git clone https://github.com/AllenDowney/ThinkDSP.git
+  284  ls
+  285  rm ThinkDSP dsp
+  286  mov ThinkDSP dsp
+  287  mv ThinkDSP dsp
+  288  ls
+  289  cd dsp
+  290  ls
+  291  nano README.md
+  292  ls
+  293  cd book
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd code
+  298  ls
+  299  nano scipy2015_demo.ipynb
+  300  ls
+  301  rm dsp
+  302  rmmod dsp
+  303  rmdir dsp
+  304  rmdir dsp/
+  305  ls
+  306  rmmod /dsp
+  307  ls
+  308  git pull https://github.com/aniawsz/rtmonoaudio2midi.git
+  309  git clone https://github.com/aniawsz/rtmonoaudio2midi.git
+  310  ls
+  311  rm dsp
+  312  rm /dsp
+  313  rm dsp/
+  314  rmdir dsp
+  315  rm -r dsp
+  316  rm -rf dsp
+  317  ls
+  318  mv rtmonoaudio2midi/ audio2midi
+  319  ls
+  320  cd audio2midi/
+  321  ls
+  322  nano synth.py
+  323  chmod a+x audiostream.py
+  324  ./audiostream.py
+  325  pip install matplotlib
+  326  sudo pip install matplotlib
+  327  sudo pip install os
+  328  pip install pyaudio
+  329  sudo pip install struct
+  330  npm install --save python-struct
+  331  sudo apt-get npm
+  332  ls
+  333  cd ..
+  334  ls
+  335  git clone https://github.com/markjay4k/Audio-Spectrum-Analyzer-in-Python.git
+  336  ls
+  337  mv Audio-Spectrum-Analyzer-in-Python/ audio_analyzer
+  338  ls
+  339  cd audio_analyzer/
+  340  ls
+  341  nano text.py
+  342  ls
+  343  mv text.py test.py
+  344  ls
+  345  cmod a+x test.py
+  346  chmod a+x test.py
+  347  ./test.py
+  348  nano test.py
+  349  chmod a+x test.py
+  350  ./test.py
+  351  nano test.py
+  352  cd ~
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd usr
+  357  cd bin
+  358  ls
+  359  cd ~
+  360  ls
+  361  cd audio
+  362  cd audio_analyzer/
+  363  ls
+  364  nano test.py
+  365  ./test.py
+  366  nano test.py
+  367  ./test.py
+  368  nano test.py
+  369  sudo pip install tkinter
+  370  sudo apt-get  install python-tk
+  371  ./test.py
+  372  nano test.py
+  373  ./test.py
+  374  nano test.py
+  375  ls
+  376  cd audio_analyzer/
+  377  ls
+  378  nano test.py
+  379  ls
+  380  ls
+  381  cd audio_analyzer/
+  382  ls
+  383  nano test.py
+  384  nano test2.py
+  385  chmod a+x test2.py
+  386  ls
+  387  sudo pip install wave
+  388  ./test2.py
+  389  nano test2..py
+  390  nano test2.py
+  391  ./test2.py
+  392  cd /etc/modprobe.d
+  393  ls
+  394  nano alsa-base.conf
+  395  aplay
+  396  man aplay
+  397  aplay -l
+  398  ls
+  399  cd ~
+  400  arecord output.wav
+  401  ls
+  402  nano output.wav
+  403  aplay output.wav
+  404  rm outputwav
+  405  rm output.wav
+  406  arecord output.wav
+  407  aplay output.wav
+  408  shutdown -h now
+  409  sudo shutdown -h now
+  410  ls
+  411  aplay output.wav
+  412  ls
+  413  cd ..
+  414  ls
+  415  cd boot
+  416  ls
+  417  nano cmdline.txt
+  418  cd /usr/shar/alsa/alsa.conf
+  419  cd /usr/share/alsa
+  420  cd alsa/conf
+  421  nano alsa.conf
+  422  aplay -l
+  423  nano alsa.conf
+  424  alsamixer
+  425  speaker-test -c2 -twav
+  426  cd /etc/asound.conf
+  427  nano /etc/asound.conf
+  428  sudo nano /etc/asound.conf
+  429  aplay -L
+  430  aplay -l
+  431  aplay -L
+  432  sudo shutdown -r now
+  433  ls
+  434  rm output.wav
+  435  ls
+  436  speaker-test -c2 -twav
+  437  sudo nano /usr/share/alsa/alsa.conf
+  438  alsamixer
+  439  amixer
+  440  alsamixer
+  441  aplay -l
+  442  speaker-test -c2 -twav
+  443  /etc/modprobe.d/
+  444  ls
+  445  cd /etc/modprobe.d/
+  446  ls
+  447  nano /etc/asound.conf
+  448  sudo nano /etc/asound.conf
+  449  speaker-test -c2 -twav
+  450  sudo nano /etc/asound.conf
+  451  speaker-test -c2 -twav
+  452  sudo raspi-config
+  453  record --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+  454  aarecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+  455  arecord
+  456  arecord -f output.wav
+  457  man arecord
+  458  arecord output.wav
+  459  alsamixer
+  460  man arecord
+  461  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  462  ls
+  463  cd ~
+  464  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  465  ls
+  466  rm rectest*
+  467  ls
+  468  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  469  ls
+  470  nano rectest.wav
+  471  cd ~
+  472  ls
+  473  cd ..
+  474  cd /boot
+  475  ls
+  476  cd ..
+  477  sudo nano /etc/asound.conf
+  478  cd ~
+  479  ls
+  480  aplay rectest.wav
+  481  sudo nano /etc/asound.conf
+  482  aplay rectest.wav
+  483  ls
+  484  rm rectest.wav
+  485  ls
+  486  arecord -vv output.wav
+  487  ls
+  488  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  489  ls
+  490  alsamixer
+  491  rm rectest.wav
+  492  man arecord
+  493  arecord -f dat test.wav
+  494  arecord -f dat -d 20 test.wav
+  495  arecord -f dat -d 20 -D hw:0,0 test.wav
+  496  arecord -d 10 -c 2 -f S16_LE -r 44100 -t wav -D copy foobar.wav
+  497  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  498  ls
+  499  arecord -d 10 -f cd -t wav -D copy foobar.wav
+  500  arecord -t wav --max-file-time 30 mon.wav
+  501  $ arecord output.wav
+  502  arecord output.wav
+  503  ls
+  504  cd /etc
+  505  ls
+  506  sudo nano asound.conf
+  507  rm asound.conf
+  508  sudo rm asound.conf
+  509  ls
+  510  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  511  ls
+  512  cd ~
+  513  ls
+  514  rm rectest.wav
+  515  arecord output.wav
+  516  aplay output.wav
+  517  arecord -D plughw:1 --duration=10 -f cd -vv ~/rectest.wav
+  518  aplay rectest.wav
+  519  ls
+  520  rm output.wav
+  521  rm rectest.wav
+  522  ls
+  523  cd audio2midi/
+  524  ls
+  525  cd ..
+  526  cd pythonstuff/
+  527  l
+  528  ls
+  529  sudo nano project1.py
+  530  chmod a+x project1.py
+  531  ls
+  532  sudo nano project1.py
+  533  chmod a+x project1.py
+  534  sudo chmod a+x project1.py
+  535  ls
+  536  ./project1.py
+  537  sudo nano project1.py
+  538  sudo nano /usr/share/alsa
+  539  cd /usr/share/alsa
+  540  ls
+  541  sudo nano alsa.conf
+  542  cd ~/pythonstuff
+  543  ls
+  544  nano project1.py
+  545  cd ~
+  546  cd ..
+  547  ls
+  548  cd bin
+  549  ls
+  550  cd ~
+  551  help("modules")
+  552  ls
+  553  pip freeze
+  554  sudo pip install sys
+  555  python -m pip install sys
+  556  cd pythonstuff/
+  557  ls
+  558  nano project1.py
+  559  pip freeze
+  560  nano project1.py
+  561  sudo pip install array
+  562  sudo apt-update pip
+  563  sudo update pip
+  564  sudo apt-get update
+  565  sudo apt-get upgrade pip
+  566  ps -eo 'tty,pid,comm' | grep ^?
+  567  jackd -d alsa
+  568  cd ..
+  569  cd ~
+  570  sudo raspi-config
+  571  export DISPLAY=:0
+  572  sudo raspi-config
+  573  jackd -d alsa
+  574  export DISPLAY=:0
+  575  ssh -X pi@192.168.0.200
+  576  jackd -d alsa
+  577  sudo apt-get install jackdbus
+  578  export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+  579  sudo apt-get install jackdbus
+  580  export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+  581  jackd -d alsa
+  582  cd pythonstuff/
+  583  ./project1.py
+  584  jackd -d alsa
+  585  man jackd
+  586  jack -R -d alsa
+  587  jackd -R -d alsa
+  588  jackd -R -d alsa &
+  589  jackd -d alsa &
+  590  ./project1.py
+  591  nano project1.py
+  592  ls
+  593  aplay demo.wav
+  594  rm demo.wav
+  595  ./project1.py
+  596  ls
+  597  nano project1.py
+  598  ps aux | grep jackd
+  599  sudo kill 19138
+  600  ps aux | grep jackd
+  601  jackd -d alsa &
+  602  nano project1.py
+  603  ps aux | grep jackd
+  604  ./project1.py
+  605  ls
+  606  sudo shutdown -h now
+  607  ls
+  608  cd pythonstuff/
+  609  ls
+  610  project1
+  611  python -m pip install --upgrade pip setuptools wheel
+  612  sudo apt-get upgrade python
+  613  sudo pip install sys
+  614  python -m pip install --upgrade pip setuptools wheel
+  615  sudo python -m pip install --upgrade pip setuptools wheel
+  616  sudo pip install sys
+  617  pip search sys
+  618  nano project1.py
+  619  nano two.py
+  620  ls
+  621  chmod a+x two.py
+  622  ls
+  623  ./two.py
+  624  python two.py
+  625  python two.py ab abc
+  626  ./two.py ab abc
+  627  ./project1.py
+  628  cd /
+  629  ls
+  630  sudo nano /usr/share/alsa/alsa.conf
+  631  cd ~/pythonstuff/
+  632  ./project1.py
+  633  cd /bin
+  634  ls
+  635  cd ..
+  636  ls
+  637  cd sys
+  638  ls
+  639  nano ~/pythonstuff/project1.py
+  640  jack
+  641  man jackd
+  642  man jack2
+  643  man jack2d
+  644  man jackd2
+  645  sudo apt-get install jackd2
+  646  cd ~/pythonstuff
+  647  ./project1.py
+  648  jackd -d alsa
+  649  jack_control start
+  650  killall pulseaudio
+  651  ./project1.py
+  652  jackd
+  653  jackd -d alsa
+  654  sudo apt-get upgrade jackd
+  655  jackd -r -d alsa -r 44100
+  656  jackd -r -d alsa -r 44100 -P
+  657  sudo jackd -r -d alsa -r 44100 -P
+  658  sudo jackd -d alsa
+  659  nano /etc/asound.conf
+  660  cd ..
+  661  ls
+  662  cd ..
+  663  ls
+  664  cd etc
+  665  ls
+  666  nano asound.conf
+  667  sudo nano asound.conf
+  668  cd /bin
+  669  ls
+  670  cd ..
+  671  cd usr
+  672  ls
+  673  cd games
+  674  ls
+  675  cd ..
+  676  cd bin
+  677  ls
+  678  cd ~/pythonstuff/
+  679  ./project1.py
+  680  jackd -d alsa
+  681  cd ..
+  682  cd /etc
+  683  ls
+  684  rm asound.conf
+  685  ls
+  686  nano asound.conf
+  687  sudo rm asound.conf
+  688  nano asound.conf
+  689  dpkg
+  690  sudo dpkg --get-selections
+  691  sudo apt-get install jack-tools ant openjdk-6-jdk fftw3 qjackctl
+  692  jackd -r -d alsa -r 44100
+  693  cd ~/pythonstuff/
+  694  ./project1.py
+  695  jackd
+  696  killall pulseaudio
+  697  kill -9 pulseaudio
+  698  man jackd
+  699  man jackd2
+  700  man jackd
+  701  aplay -l
+  702  jackd -d alsa
+  703  sudo -i
+  704  cd pythonstuff/
+  705  ls
+  706  nano project1.py
+  707  ls
+  708  nano one.py
+  709  sudo chmod a+x one.py
+  710  ./one.py
+  711  ls
+  712  jackd -d alsa &
+  713  export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+  714  jackd -d alsa &
+  715  ./one.py
+  716  ls
+  717  aplay file.wav
+  718  ssh -x
+  719  nano one.py
+  720  ls
+  721  scp file.wav timot@192.168.0.16 C:\Users\timot\Desktop
+  722  man scp
+  723  scp ~/pythonstuff/file.wav timot@192.168.0.16 C:\Users\timot\Desktop
+  724  scp ~/pythonstuff/file.wav timot@192.168.0.1 C:\Users\timot\Desktop
+  725  scp ~/pythonstuff/file.wav timot@LAPTOP-JFBG9QPS C:\Users\timot\Desktop
+  726  scp ~/pythonstuff/file.wav timot@LAPTOP-JFBG9QPS C:
+  727  scp ~/pythonstuff/file.wav timot@LAPTOP-JFBG9QPS C:asdf
+  728  ssh timot@LAPTOP-JFBG9QPS
+  729  ssh timot@192.168.0.16
+  730  scp ~/pythonstuff/file.wav timothy guo@LAPTOP-JFBG9QPS C:asdf
+  731  scp ~/pythonstuff/file.wav LAPTOP-JFBG9QPS@192.168.0.16 C:asdf
+  732  scp ~/pythonstuff/file.wav LAPTOP-JFBG9QPS@192.168.0.16 C:
+  733  scp ~/pythonstuff/file.wav LAPTOP-JFBG9QPS@192.168.0.16 C:\windows
+  734  scp /home/pi/pythonstuff/file.wav timot@LAPTOP-JFBG9QPS C:\Users\timot
+  735  scp /home/pi/pythonstuff/file.wav timot@LAPTOP-JFBG9QPS:C:\Users\timot
+  736  clear
+  737  scp /home/pi/pythonstuff/file.wav timot@LAPTOP-JFBG9QPS:Desktop
+  738  cd ..
+  739  git clone https://github.com/realtimshady1/PianoPythonTuner.git
+  740  ls
+  741  man mv
+  742  mv pythonstuff/* PianoPythonTuner/
+  743  ls
+  744  cd PianoPythonTuner/
+  745  ls
+  746  cd ..
+  747  cd pythonstuff/
+  748  ls
+  749  cd .
+  750  cd ..
+  751  rmdir pythonstuff/
+  752  ls
+  753  git push PianoPythonTuner/
+  754  git remote add origin git@github.com:realtimshady1/PianoPythonTuner.git
+  755  git push origin master
+  756  cd PianoPythonTuner/
+  757  git push origin master
+  758  git push
+  759  cd ..
+  760  ls
+  761  cd PianoPythonTuner/
+  762  ls
+  763  git push -all
+  764  git push --all
+  765  git init
+  766  ls
+  767  cd ..
+  768  git init
+  769  git add .
+  770  ls
+  771  cd PianoPythonTuner/
+  772  ls
+  773  git commit -m "first commit"
+  774  git push origin master
+  775  ls
+  776  git push hello.py
+  777  ls
+  778  git push origin master
+  779  git status
+  780  ls
+  781  rm hello.py
+  782  ls
+  783  nano one.py
+  784  mv audio2wav.py one.py
+  785  mv one.py audio2wav.py
+  786  ls
+  787  nano project1.py
+  788  rm project1.py
+  789  ls
+  790  sudo rm project1.py
+  791  ls
+  792  nano two
+  793  nano two.py
+  794  mv two.py tester.py
+  795  ls
+  796  git status
+  797  git add audio2wav.py file.wav tester.py
+  798  ls
+  799  git push origin master
+  800  git pull origin master
+  801  git push origin master
+  802  git status
+  803  git pull origin master --rebase
+  804  ls
+  805  git status
+  806  git commit -m "upload"
+  807  git config
+  808  git config --global user.name "tim"
+  809  git commit -m "upload"
+  810  git init
+  811  git config user.name "tim"
+  812  git config user.email "timothy.guo3@gmail.com"
+  813  git add *
+  814  git commit -m "upload"
+  815  git status
+  816  git push orgin master
+  817  git push origin master
+  818  ls
+  819  git commit -m "upload"
+  820  git pull origin master --rebase
+  821  git pull origin master
+  822  git push
+  823  ls
+  824  nano audio2wav.py
+  825  sudo shutdown -h now
+  826  ls
+  827  cd PianoPythonTuner/
+  828  ls
+  829  git status
+  830  sudo pip install RPi.GPIO
+  831  ls
+  832  nano GPIO_CTL.py
+  833  ls
+  834  mv GPIO_CTL.py GPIO_PWM.py
+  835  ls
+  836  chmod a+x GPIO_PWM.py
+  837  ls
+  838  git status
+  839  git add GPIO_PWM.py
+  840  git status
+  841  git commit
+  842  git commit -m "new file for GPIO_PWM"
+  843  git push origin master
+  844  ls
+  845  nano README.md
+  846  nano GPIO_PWM.py
+  847  ls
+  848  cp GPIO_PWM.py
+  849  cp GPIO_PWM.py GPIO_blink.py
+  850  ls
+  851  nano GPIO_blink.py
+  852  nano GPIO_PWM.py
+  853  git status
+  854  git add GPIO_blink.py
+  855  git commit -m "modifications to PWM and created blink script for testing"
+  856  git push origin master
+  857  ls
+  858  ./GPIO_blink.py
+  859  nano GPIO_blink.py
+  860  nano GPIO_PWM.py
+  861  ./GPIO_blink.py
+  862  ./GPIO_PWM.py
+  863  nano GPIO_PWM.py
+  864  ./GPIO_PWM.py
+  865  nano GPIO_PWM.py
+  866  git status
+  867  ./GPIO_PWM.py
+  868  git commit -m "revised for simpler exit"
+  869  git push origin master
+  870  ls
+  871  nano audio2wav.py
+  872  sudo shutdown -h now
+  873  ls
+  874  cd PianoPythonTuner/
+  875  ls
+  876  nano GPIO_blink.py.save
+  877  rm GPIO_blink.py
+  878  ls
+  879  nano audio2wav.py
+  880  ./audio2wav.py
+  881  nano audio2wav.py
+  882  jackd -d alsa &
+  883  export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+  884  jackd -d alsa &
+  885  ./audio2wav.py
+  886  nano audio2wav.py
+  887  ./audio2wav.py
+  888  nano audio2wav.py
+  889  ./audio2wav.py
+  890  nano audio2wav.py
+  891  nano tester.py
+  892  ./tester.py
+  893  nano tester.py
+  894  ./tester.py
+  895  nano audio2wav.py
+  896  nano GPIO_blink.py
+  897  ls
+  898  mv GPIO_blink.py.save GPIO_blink.py
+  899  ls
+  900  nano GPIO_blink.py
+  901  nano GPIO_PWM.py
+  902  nano GPIO_blink.py
+  903  ls
+  904  ./GPIO_blink.py
+  905  nano GPIO_blink.py
+  906  ./GPIO_blink.py
+  907  nano GPIO_blink.py
+  908  ./GPIO_blink.py
+  909  nano GPIO_blink.py
+  910  ./GPIO_blink.py
+  911  nano GPIO_blink.py
+  912  ./GPIO_blink.py
+  913  nano GPIO_blink.py
+  914  ./GPIO_blink.py
+  915  nano GPIO_blink.py
+  916  ./GPIO_blink.py
+  917  nano GPIO_blink.py
+  918  ./GPIO_blink.py
+  919  ls
+  920  nano GPIO_PWM.py
+  921  ./GPIO_PWM.py
+  922  ./GPIO_blink.py
+  923  nano GPIO_blink.py
+  924  ./GPIO_blink.py
+  925  ls
+  926  rm file.wav
+  927  ls
+  928  nano audio2wav.py
+  929  ./audio2wav.py
+  930  nano audio2wav.py
+  931  ./audio2wav.py
+  932  ls
+  933  nano audio2wav.py
+  934  ./audio2wav.py
+  935  nano audio2wav.py
+  936  ./audio2wav.py
+  937  nano audio2wav.py
+  938  ./audio2wav.py
+  939  nano audio2wav.py
+  940  ./audio2wav.py
+  941  nano audio2wav.py
+  942  ./audio2wav.py
+  943  nano audio2wav.py
+  944  ./audio2wav.py
+  945  nano audio2wav.py
+  946  ./audio2wav.py
+  947  nano audio2wav.py
+  948  ./audio2wav.py
+  949  nano audio2wav.py
+  950  ./audio2wav.py
+  951  nano audio2wav.py
+  952  ./audio2wav.py
+  953  nano audio2wav.py
+  954  ./audio2wav.py
+  955  nano audio2wav.py
+  956  ./audio2wav.py
+  957  nano audio2wav.py
+  958  alsamixer
+  959  ./audio2wav.py
+  960  ls
+  961  nano GPIO_blink.py
+  962  nano tester.py
+  963  rm tester.py
+  964  ls
+  965  mv audio2wav.py RMS_Duty_Converter.py
+  966  ls
+  967  git status
+  968  git rm audio2wav.py file.wav tester.py
+  969  git commit -m "combined GPIO and mic input"
+  970  ls
+  971  git push origin master
+  972  ls
+  973  git status
+  974  git add RMS_Duty_Converter.py
+  975  git commit -m "added final file"
+  976  git push origin global
+  977  git push origin master
+  978  git status
+  979  sudo shutdown -h now
+  980  ls
+  981  jackd -d alsa &
+  982  export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+  983  jackd -d alsa &
+  984  ps aux | grep ctl
+  985  ps aux | grep jackd
+  986  kill 826
+  987  jackd -R -d alsa &
+  988  sudo shutdown -h now
+  989  sudo nano /etc/dbus-1/system.conf
+  990  export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+  991  jackd -d alsa &
+  992  version jackd1
+  993  jackd1 --version
+  994  --version jackd1
+  995  dpkg --list
+  996  ls
+  997  cd /
+  998  ls
+  999  sudo apt-get install ranger
+ 1000  history
+
