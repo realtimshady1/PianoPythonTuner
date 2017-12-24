@@ -2,18 +2,17 @@
 
 import pyaudio
 import audioop
-import time
 import RPi.GPIO as GPIO
 
 FORMAT = pyaudio.paInt16# 2 Bytes
 MAX_INT = 32768		# 2 ** 15 signed
 CHANNELS = 1 		# Mono
 RATE = 44100 		# Hertz
-CHUNK = 10240 		# Number of values
-PWM_PIN = 12
+CHUNK = 1024 		# Number of values
+PWM_PIN = 12		# Connect + to pin 12
 DATA_SIZE = 2 		# Bytes 
 FREQ = 50 		# Hertz
-DUTY_CYCLE = 100	# Percent		
+DUTY_CYCLE = 100	# Percent
 
 audio = pyaudio.PyAudio()
 
