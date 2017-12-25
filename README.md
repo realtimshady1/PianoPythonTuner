@@ -157,27 +157,6 @@ This will point actions to the default device which we specified earlier as the 
 
 5. Save and exit
 
-#### Jackd
-
-We will need *Jack 1 & 2* in order to route to alsa in our Python code. The repository containing the patched version of *Jackd* is needed to be grabbed from elsewhere.
-
-1. Get repository
-```
-wget -O - http://rpi.autostatic.com/autostatic.gpg.key| sudo apt-key add -
-sudo wget -O /etc/apt/sources.list.d/autostatic-audio-raspbian.list http://rpi.autostatic.com/autostatic-audio-raspbian.list
-sudo apt-get update
-```
-
-2. Jackd 1:
-
-`sudo apt-get install Jackd1`
-
-Ensure to allow realtime access priority
-
-3. Jackd 2:
-
-`sudo apt-get install Jackd2`
-
 #### Python
 
 The version pre-installed is Python2.7. But we will still need certain libraries in order for the code to work.
@@ -192,7 +171,7 @@ The version pre-installed is Python2.7. But we will still need certain libraries
 
 3. Install library dependencies:
 
-` sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 libav-tools python-all-dev`
+` sudo apt-get install libasound2-dev portaudio19-dev libportaudio2 libportaudiocpp0 libav-tools python-all-dev`
 
 4. Install *pyaudio*:
 
@@ -208,9 +187,21 @@ The version pre-installed is Python2.7. But we will still need certain libraries
 
 `git clone https://github.com/realtimshady1/PianoPythonTuner.git`
 
+#### Jackd
+
+We will need *Jack 1 & 2* in order to route to alsa in our Python code. Be sure to install Jackd last, I discovered that the other packages will remove a preinstalled Jackd.
+
+1. Jackd 1:
+
+`sudo apt-get install jackd1`
+
+Ensure to allow realtime access priority
+
+2. Jackd 2:
+
+`sudo apt-get install jackd2`
 
 ## Running the Script
-
 
 Before running any instance of *Jackd*, we have to export the following environment variable. I am not exactly sure what this is but without this, *Jackd* refuses to work.
 
