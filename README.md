@@ -129,7 +129,6 @@ defauts.pcm.card 1
 In the alsa.conf file, there are more changes needed in order for the soundcard to work through python. Running PyAudio as is will return messages such as:
 
 ```
-ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front  
 ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear  
 ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe  
 ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side  
