@@ -178,44 +178,6 @@ Ensure to allow realtime access priority
 
 `sudo apt-get install Jackd2`
 
-Lastly, to allow [alsa to work as Jackd is running](https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit#Playing_nice_with_ALSA), we need to do the follow
-
-1. Create the file:
-
-`sudo nano /etc/asound.conf`
-
-2. Enter the following:
-
-```
-# convert alsa API over jack API
-# use it with
-# % aplay foo.wav
-
-# use this as default
-pcm.!default {
-    type plug
-    slave { pcm "jack" }
-}
-
-ctl.mixer0 {
-    type hw
-    card 1
-}
-
-# pcm type jack
-pcm.jack {
-    type jack
-    playback_ports {
-        0 system:playback_1
-        1 system:playback_2
-    }
-    capture_ports {
-        0 system:capture_1
-        1 system:capture_2
-    }
-}
-```
-
 #### Python
 
 The version pre-installed is Python2.7. But we will still need certain libraries in order for the code to work.
