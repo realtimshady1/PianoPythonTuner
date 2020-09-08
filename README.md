@@ -1,4 +1,9 @@
 # PianoPythonTuner
+
+## Description
+
+Python Piano Tuner is a project that uses a Raspberry Pi interface to automatically tune a string using a stepper motor. The sound input is received through a microphone and soundcard that is connected to the Raspberry Pi. Using a Fourier comparison, the correct frequency is then adjusted using a stepper motor that is driven by the same Raspberry Pi to achieve the desired frequency by the string.
+
 ## Equipment
 * Raspberry Pi Model 3
 * USB Soundcard 3D sound
